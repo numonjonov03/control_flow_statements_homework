@@ -17,6 +17,8 @@ def main(a):
             return "positive even number"
         else :
             return "positive odd number"
+    elif a==0:
+        return "the number is zero"        
     else:
         if a%2==0:
             return "negative even number"
